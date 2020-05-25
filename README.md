@@ -73,7 +73,7 @@ response.headers        # dictionary containing response HTTP headers
 
 ## Exceptions
 
-There are 4 types of exceptions in `birdy` all subclasses of base `BirdyException` (which is never directly raised).
+There are 4 types of exceptions.
 
   - `TwitterClientError` raised for connection and access token retrieval errors
   - `TwitterApiError` raised when Twitter returns an error
